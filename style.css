@@ -1,0 +1,59 @@
+body {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	height: 100vh;
+	background-color: lightblue;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin-top: 100px;
+}
+
+#ms {
+	font-size: 0.3em;
+}
+
+.button {
+	margin-bottom: 30px;
+}
+
+.bigdig {
+	height: 132px;
+	width: 136px;
+}
+
+.time {
+	font-size: 7rem;
+	color: #666;
+	height: 184px;
+	width: 531px;
+}
+
+.btn {
+	font-size: 1.2rem;
+	border-radius: 50%;
+	width: 100px;
+	height: 100px;
+}
+
+.smallBtn {
+	font-size: 0.8em;
+	width: 70px;
+	height: 70px;
+}
+
+ul li {
+	list-style-type: none;
+	font-size: 1.2rem;
+}
+
+.laplist {
+	display: flex;
+	flex-wrap: wrap;
+	height: 300px;
+}
